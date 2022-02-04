@@ -1,7 +1,39 @@
 body {
-  background-image: url(steven.jpg);
-  background-color: maroon;
+   background-image: url(steven.jpg);
   font-family: sans-serif;
+background-color: #cccccc;
+
 }
+
+img {
+  border: 10px solid #fadadd;
+  border-radius: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 15px 15px rgba(253, 136, 196, 0.8);
+}
+table, th, td {
+
+
+border:0px ; 
+
+font-family: Verdana;
+ width: 50%;
+}
+tr:nth-child(even) {
+  background-color: #fadadd;
+}
+tr:nth-child(odd) {
+  background-color: #CBC3E3
+}
+.shadow {
+  width: 20em;
+  border: 3px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  background-image: linear-gradient(180deg, #fadadd, #CBC3E3 40%, #fadadd);
+}
+
 
 
