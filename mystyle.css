@@ -1,5 +1,6 @@
 body {
-   background-image: url(steven.jpg)
+  background-image: url(steven.jpg)
+  background-color: #cccccc
   font-family: sans-serif
 }
 h1 {
